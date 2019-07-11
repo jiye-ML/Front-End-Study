@@ -1,0 +1,17 @@
+功能；
+	1、这是一个在页面上提示正在加载中 ， js 文件，
+	2、用于一些在前台一些提示信息
+      
+
+注意问题
+	1、js 需要的图片的路径
+	2、js 需要的z-index 布局， 
+
+
+一些使用
+	1、   msgBox.showMsgErr(obj.msg);  // 展示信息
+
+	2、   msgBox.showMsgOk(obj.msg, function () {
+                                //显示完消息后，js控制浏览器访问 消息列表页面
+                                window.location = obj.nextUrl;
+                            });
